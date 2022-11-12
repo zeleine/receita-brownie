@@ -1,0 +1,48 @@
+@charset "UFT-8";
+
+body {
+    background-color: rgb(235, 217, 220);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    background-color: bisque;
+    padding: 6px 6px 6px 6px;
+    border-radius: 3px;
+    display: flex;
+    margin: auto;
+}
+
+.lista {
+    background-color: rgb(235, 197, 204);
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.intro {
+    background-color: rgb(216, 164, 181);
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+img {
+    height: 50%;
+    width: 60%;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+    padding: 10px 10px 10px 10px;
+}
